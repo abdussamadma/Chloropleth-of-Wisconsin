@@ -4,6 +4,9 @@ library(tidyselect)
 library(ggplot2)
 library(tigris)
 library(mapview)
+census_api_key("c743dd3966fcbb89cc30a9bbbccd14e2024d76cb",
+               install = TRUE)
+
 options(tigris_use_cache = TRUE)
 
 ##--wisconsin-median-age-data
